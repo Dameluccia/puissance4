@@ -1,0 +1,46 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+body{
+  width: 100%;
+}
+.visible{
+  width: 50%;
+  background-color: blue;
+  margin: auto;
+    border: 4px outset black;
+}
+td, tr{
+  border: 4px outset #666;
+  border-radius: 50%;
+  background-color: white;
+  height: 80px;
+}
+h1{
+  text-align: center;
+}
+
+#transparent{
+    border-radius: 50%;
+    background-color: none;
+    margin: auto;
+    width: 50%;
+    height: 90px;
+
+}
+#transparent td{
+  border: 1px white solid;
+}
+
+#transparent tr td:hover{
+  border: 1px grey solid;
+}
+
+
+.yellow{
+  background-color: yellow;
+}
+.red{
+  background-color: red;
+}
